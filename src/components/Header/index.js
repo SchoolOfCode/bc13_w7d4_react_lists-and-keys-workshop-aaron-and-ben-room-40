@@ -5,7 +5,7 @@ import './index.css';
 function Header() {
   return (
     <header>
-      <h1>Cooky Pigeon Watch</h1>
+      <div class ="title"><h1>Cooky Pigeon Watch</h1></div>
     </header>
   );
 }
