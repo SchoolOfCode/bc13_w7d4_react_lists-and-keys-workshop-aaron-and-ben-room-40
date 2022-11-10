@@ -20,7 +20,12 @@ console.log(posts)
         date ={post.date}
         author = {post.author}
         text = {post.text}
-        highlights = {post.highlights}
+        // highlights = {post.highlights}
+        highlights = {post.highlights.map((item, index) => {
+          // return <li key={post.highlights[item]}>{item}</li>
+          return <li key={index} >{item}</li>
+        })}
+
         image = {post.image}
         />
       }
