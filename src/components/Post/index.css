@@ -2,3 +2,19 @@
   border: 10px solid fuchsia;
   width: 50vw;
 }
+article {
+  text-align: justify;
+  padding: 5%;
+}
+
+.pigeonContainer {
+  height: 20vh
+
+  
+}
+
+.picture {
+  width: 200px;
+  border-radius: 9000%;
+
+}
