@@ -9,7 +9,7 @@ function Post({title, date, author, text, highlights, image}) {
     <p>{author}</p>
     <article>{text}</article>
     <summary>{highlights}</summary>
-    {/* <div>{image}</div> */}
+    <img src = {image.link} img alt = {image.alt}></img>
   </div>;
 }
 
